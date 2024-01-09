@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Nunito"; 
+    src: url("https://fonts.googleapis.com/css2?family=Nunito&display=swap") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+  @font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap") format("truetype");  
+  }
+  .card{
+    width: 200px;
+    height: 200px;
+  }
+  .second{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .third{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+.fith{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.a{
+  font-family: "Montserrat";
+}
+.carousel-inner {
+  height: 350px;
+}
+
+.pervaya {
+  width: 100%;
+}
+
+.vtoraya {
+  width: 100%;
+}
+
+.chair {
+  width: 100%;
+}
+
+.carousel-indicators button {
+  background-color: #000 !important;
+}
+
+.card {
+  margin-left: -7%;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .card {
+    margin-left: -13%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .card {
+    margin-left: -21%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .card {
+    margin-left: -29%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card {
+    margin-left: -35%;
+  }
+}
